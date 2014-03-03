@@ -1,0 +1,646 @@
+TD3Visualizer
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Info.plist /Volumes/SHARED/alehouse/D3Visualizer/Info.plist
+cCpResource CodeMirrorView/Distribution/CodeMirrorView.bundle build/Release/D3Visualizer.app/Contents/Resources/CodeMirrorView.bundle
+cCompileXIB /Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/MainMenu.xib
+cCompileXIB /Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/Document.xib
+cCopyStringsFile /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/Localizable.strings Resources/English.lproj/Localizable.strings
+cCpResource Resources/index.html build/Release/D3Visualizer.app/Contents/Resources/index.html
+cCpResource Resources/English.lproj/default.css build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.css
+cCpResource Resources/English.lproj/default.js build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.js
+cCpResource Resources/English.lproj/default.sql build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.sql
+cCpResource Resources/English.lproj/error.html build/Release/D3Visualizer.app/Contents/Resources/English.lproj/error.html
+cCpResource D3/d3.min.js build/Release/D3Visualizer.app/Contents/Resources/d3.min.js
+cCpResource D3Plugins/hexbin/hexbin.js build/Release/D3Visualizer.app/Contents/Resources/hexbin.js
+cCpResource Crossfilter/crossfilter.min.js build/Release/D3Visualizer.app/Contents/Resources/crossfilter.min.js
+cCpResource NVD3/nv.d3.min.js build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.js
+cCpResource NVD3/nv.d3.min.css build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.css
+cProcessPCH /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch.pch Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document.o /Volumes/SHARED/alehouse/D3Visualizer/Classes/Document.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CodeMirrorView.o /Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CHCSVParser.o /Volumes/SHARED/alehouse/D3Visualizer/CHCSVParser/CHCSVParser/CHCSVParser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document+Database.o /Volumes/SHARED/alehouse/D3Visualizer/Classes/Document+Database.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/AppDelegate.o /Volumes/SHARED/alehouse/D3Visualizer/Classes/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/main.o /Volumes/SHARED/alehouse/D3Visualizer/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer normal x86_64
+cGenerateDSYMFile /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app.dSYM /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer
+cTouch /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c0000000052822B6200000000000000AA
+t1384262498
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526C8246000000000000044C
+t1382842950
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526C824600000000000001DB
+t1382842950
+s475
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c00000000526C82490000000000089028
+t1382842953
+s561192
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libsqlite3.dylib
+c00000000526C824B00000000000136F8
+t1382842955
+s79608
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005207E4400000000000006730
+t1376248896
+s26416
+
+N/Volumes/SHARED/alehouse/D3Visualizer/CHCSVParser/CHCSVParser/CHCSVParser.m
+c000000005314F1E60000000000005FD8
+t1393881574
+s24536
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Classes/AppDelegate.m
+c000000005314F19400000000000005F4
+t1393881492
+s1524
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Classes/Document+Database.m
+c000000005314F1940000000000002718
+t1393881492
+s10008
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Classes/Document.m
+c000000005314F1940000000000004E4E
+t1393881492
+s20046
+
+N/Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.bundle
+c000000005314F1EA0000000000008000
+t1393881578
+s32768
+
+N/Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.m
+c000000005314F1EA000000000000166F
+t1393881578
+s5743
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Crossfilter/crossfilter.min.js
+c000000005314F1EC0000000000002533
+t1393881580
+s9523
+
+N/Volumes/SHARED/alehouse/D3Visualizer/D3/d3.min.js
+c000000005314F2380000000000023CC4
+t1393881656
+s146628
+
+N/Volumes/SHARED/alehouse/D3Visualizer/D3Plugins/hexbin/hexbin.js
+c000000005314F23A0000000000000A91
+t1393881658
+s2705
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Info.plist
+c000000005314F1940000000000000C9D
+t1393881492
+s3229
+
+N/Volumes/SHARED/alehouse/D3Visualizer/NVD3/nv.d3.min.css
+c000000005314F24200000000000021D9
+t1393881666
+s8665
+
+N/Volumes/SHARED/alehouse/D3Visualizer/NVD3/nv.d3.min.js
+c000000005314F242000000000002DF91
+t1393881666
+s188305
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Prefix.pch
+c000000005314F1940000000000000887
+t1393881492
+s2183
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/Document.xib
+c000000005314F1940000000000002A9B
+t1393881492
+s10907
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/Localizable.strings
+c000000005314F194000000000000002D
+t1393881492
+s45
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/MainMenu.xib
+c000000005314F1940000000000003089
+t1393881492
+s12425
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/default.css
+c000000005314F1940000000000000060
+t1393881492
+s96
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/default.js
+c000000005314F19400000000000002A3
+t1393881492
+s675
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/default.sql
+c000000005314F194000000000000004F
+t1393881492
+s79
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/error.html
+c000000005314F1940000000000000467
+t1393881492
+s1127
+
+N/Volumes/SHARED/alehouse/D3Visualizer/Resources/index.html
+c000000005314F19400000000000003F9
+t1393881492
+s1017
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/AppDelegate.o
+t1393882176
+s13692
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CHCSVParser.o
+t1393882176
+s111384
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CodeMirrorView.o
+t1393882176
+s49452
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/D3Visualizer.LinkFileList
+c000000005314F43C00000000000002F3
+t1393882172
+s755
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document+Database.o
+t1393882176
+s57188
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document.o
+t1393882176
+s157132
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/main.o
+t1393882176
+s2880
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app
+t1393882174
+s32768
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app.dSYM
+t2
+s0
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Info.plist
+t1393882172
+s3498
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer
+t1393882176
+s141820
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/PkgInfo
+t1393882172
+s8
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/CodeMirrorView.bundle
+t1393882174
+s32768
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/Document.nib
+t1393882174
+s8443
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/Localizable.strings
+t1393882172
+s92
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/MainMenu.nib
+t1393882174
+s9093
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.css
+t1393882172
+s96
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.js
+t1393882172
+s675
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.sql
+t1393882172
+s79
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/error.html
+t1393882172
+s1127
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/crossfilter.min.js
+t1393882172
+s9523
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/d3.min.js
+t1393882172
+s146628
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/hexbin.js
+t1393882172
+s2705
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/index.html
+t1393882172
+s1017
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.css
+t1393882172
+s8665
+
+N/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.js
+t1393882172
+s188305
+
+N/Volumes/SHARED/alehouse/D3Visualizer/main.m
+c000000005314F194000000000000062E
+t1393881492
+s1582
+
+N/var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch.pch
+t1393882176
+s14240964
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1ccf0fbc2bc5b841^a5dd88bd2bc5b841^---0#1#1#--18"Check dependencies36"32C5685D-829E-4D89-91C1-626A5BFAF56E-
+
+CCompileC build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/AppDelegate.o /Volumes/SHARED/alehouse/D3Visualizer/Classes/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s415574977.028744
+e415574977.053984
+r1
+xCompileC
+xbuild/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/AppDelegate.o
+x/Volumes/SHARED/alehouse/D3Visualizer/Classes/AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/alehouse/D3Visualizer/Classes/AppDelegate.m
+d/Volumes/SHARED/alehouse/D3Visualizer/Classes/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Volumes/SHARED/alehouse/D3Visualizer/Classes/AppDelegate.m204"[1mCompileC[0m build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/AppDelegate.o [1mClasses/AppDelegate.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler506e07c12bc5b841^15e20dc12bc5b841^---0#0#1#-19%DVTDocumentLocation2@75"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/Classes/AppDelegate.m0000000000000000^3118"[1mCompileC[0m build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/AppDelegate.o [1mClasses/AppDelegate.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/alehouse/D3Visualizer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-generated-files.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-own-target-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-all-target-headers.hmap -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-project-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources/x86_64 -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources -Wall -F/Volumes/SHARED/alehouse/D3Visualizer/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/AppDelegate.dia -c /Volumes/SHARED/alehouse/D3Visualizer/Classes/AppDelegate.m -o /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/AppDelegate.o36"4604ECDE-CA25-49B2-B225-DC0C0E1D7ECE-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCompileC build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CHCSVParser.o /Volumes/SHARED/alehouse/D3Visualizer/CHCSVParser/CHCSVParser/CHCSVParser.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s415574976.952951
+e415574977.110636
+r1
+xCompileC
+xbuild/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CHCSVParser.o
+x/Volumes/SHARED/alehouse/D3Visualizer/CHCSVParser/CHCSVParser/CHCSVParser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/alehouse/D3Visualizer/CHCSVParser/CHCSVParser/CHCSVParser.m
+d/Volumes/SHARED/alehouse/D3Visualizer/CHCSVParser/CHCSVParser/CHCSVParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Volumes/SHARED/alehouse/D3Visualizer/CHCSVParser/CHCSVParser/CHCSVParser.m220"[1mCompileC[0m build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CHCSVParser.o [1mCHCSVParser/CHCSVParser/CHCSVParser.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerff07f4c02bc5b841^c6521cc12bc5b841^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/CHCSVParser/CHCSVParser/CHCSVParser.m0000000000000000^3150"[1mCompileC[0m build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CHCSVParser.o [1mCHCSVParser/CHCSVParser/CHCSVParser.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/alehouse/D3Visualizer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-generated-files.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-own-target-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-all-target-headers.hmap -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-project-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources/x86_64 -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources -Wall -F/Volumes/SHARED/alehouse/D3Visualizer/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CHCSVParser.d --serialize-diagnostics /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CHCSVParser.dia -c /Volumes/SHARED/alehouse/D3Visualizer/CHCSVParser/CHCSVParser/CHCSVParser.m -o /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CHCSVParser.o36"8CBECF25-52AB-4883-8F1A-FCC4239CE12C-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCompileC build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CodeMirrorView.o /Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s415574976.952947
+e415574977.027454
+r1
+xCompileC
+xbuild/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CodeMirrorView.o
+x/Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.m
+d/Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.m230"[1mCompileC[0m build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CodeMirrorView.o [1mCodeMirrorView/Distribution/CodeMirrorView.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4208f4c02bc5b841^0d1d07c12bc5b841^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.m0000000000000000^3176"[1mCompileC[0m build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CodeMirrorView.o [1mCodeMirrorView/Distribution/CodeMirrorView.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/alehouse/D3Visualizer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-generated-files.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-own-target-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-all-target-headers.hmap -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-project-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources/x86_64 -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources -Wall -F/Volumes/SHARED/alehouse/D3Visualizer/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CodeMirrorView.d --serialize-diagnostics /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CodeMirrorView.dia -c /Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.m -o /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CodeMirrorView.o36"3348EDA4-3131-4137-B3BE-F975240B591D-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCompileC build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document+Database.o /Volumes/SHARED/alehouse/D3Visualizer/Classes/Document+Database.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s415574976.952970
+e415574977.065999
+r1
+xCompileC
+xbuild/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document+Database.o
+x/Volumes/SHARED/alehouse/D3Visualizer/Classes/Document+Database.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/alehouse/D3Visualizer/Classes/Document+Database.m
+d/Volumes/SHARED/alehouse/D3Visualizer/Classes/Document+Database.h
+d/Volumes/SHARED/alehouse/D3Visualizer/Classes/Document.h
+d/Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Volumes/SHARED/alehouse/D3Visualizer/Classes/Document+Database.m216"[1mCompileC[0m build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document+Database.o [1mClasses/Document+Database.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7408f4c02bc5b841^85ec10c12bc5b841^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/Classes/Document+Database.m0000000000000000^3154"[1mCompileC[0m build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document+Database.o [1mClasses/Document+Database.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/alehouse/D3Visualizer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-generated-files.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-own-target-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-all-target-headers.hmap -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-project-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources/x86_64 -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources -Wall -F/Volumes/SHARED/alehouse/D3Visualizer/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document+Database.d --serialize-diagnostics /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document+Database.dia -c /Volumes/SHARED/alehouse/D3Visualizer/Classes/Document+Database.m -o /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document+Database.o36"36811B4B-DBC3-43D0-A184-E983F42E0245-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCompileC build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document.o /Volumes/SHARED/alehouse/D3Visualizer/Classes/Document.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s415574976.952940
+e415574977.157119
+r1
+xCompileC
+xbuild/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document.o
+x/Volumes/SHARED/alehouse/D3Visualizer/Classes/Document.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/alehouse/D3Visualizer/Classes/Document.m
+d/Volumes/SHARED/alehouse/D3Visualizer/Classes/Document+Database.h
+d/Volumes/SHARED/alehouse/D3Visualizer/Classes/Document.h
+d/Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.h
+d/Volumes/SHARED/alehouse/D3Visualizer/CHCSVParser/CHCSVParser/CHCSVParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Volumes/SHARED/alehouse/D3Visualizer/Classes/Document.m198"[1mCompileC[0m build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document.o [1mClasses/Document.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler0307f4c02bc5b841^f33828c12bc5b841^---0#0#1#-19%DVTDocumentLocation2@72"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/Classes/Document.m0000000000000000^3100"[1mCompileC[0m build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document.o [1mClasses/Document.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/alehouse/D3Visualizer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-generated-files.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-own-target-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-all-target-headers.hmap -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-project-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources/x86_64 -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources -Wall -F/Volumes/SHARED/alehouse/D3Visualizer/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document.d --serialize-diagnostics /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document.dia -c /Volumes/SHARED/alehouse/D3Visualizer/Classes/Document.m -o /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document.o36"2788DD9D-F5BD-46E8-8528-A23E6334E335-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCompileC build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/main.o /Volumes/SHARED/alehouse/D3Visualizer/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s415574977.055338
+e415574977.076880
+r1
+xCompileC
+xbuild/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/main.o
+x/Volumes/SHARED/alehouse/D3Visualizer/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/alehouse/D3Visualizer/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Compile /Volumes/SHARED/alehouse/D3Visualizer/main.m182"[1mCompileC[0m build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/main.o [1mmain.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler1d3d0ec12bc5b841^79ae13c12bc5b841^---0#0#1#-19%DVTDocumentLocation2@60"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/main.m0000000000000000^3060"[1mCompileC[0m build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/main.o [1mmain.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/alehouse/D3Visualizer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-generated-files.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-own-target-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-all-target-headers.hmap -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-project-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources/x86_64 -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources -Wall -F/Volumes/SHARED/alehouse/D3Visualizer/build/Release -include /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch -MMD -MT dependencies -MF /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/main.dia -c /Volumes/SHARED/alehouse/D3Visualizer/main.m -o /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/main.o36"DAF528B3-C0E2-40B9-A15C-F681ADB315CF-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCompileXIB /Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/Document.xib
+s415574973.551054
+e415574975.749327
+r1
+xCompileXIB
+x/Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/Document.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/Document.xib63"[1mCompileXIB[0m [1mResources/English.lproj/Document.xib[0m0d1b8dbd2bc5b841^02d9bfbf2bc5b841^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/Document.xib0000000000000000^560"[1mCompileXIB[0m [1mResources/English.lproj/Document.xib[0m    cd /Volumes/SHARED/alehouse/D3Visualizer    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.7 --output-format human-readable-text --compile /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/Document.nib /Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/Document.xib36"D0651854-8C17-4AFB-9ED2-3762AB569485-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCompileXIB /Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/MainMenu.xib
+s415574973.550743
+e415574975.738178
+r1
+xCompileXIB
+x/Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/MainMenu.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/MainMenu.xib63"[1mCompileXIB[0m [1mResources/English.lproj/MainMenu.xib[0m1b108dbd2bc5b841^37fabcbf2bc5b841^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/MainMenu.xib0000000000000000^560"[1mCompileXIB[0m [1mResources/English.lproj/MainMenu.xib[0m    cd /Volumes/SHARED/alehouse/D3Visualizer    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.7 --output-format human-readable-text --compile /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/MainMenu.nib /Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/MainMenu.xib36"62F3CD82-C88C-41F8-86C7-52F38285585E-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCopyStringsFile /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/Localizable.strings Resources/English.lproj/Localizable.strings
+s415574973.551106
+e415574973.565843
+r1
+xCopyStringsFile
+x/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/Localizable.strings
+xResources/English.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy Resources/English.lproj/Localizable.strings151"[1mCopyStringsFile[0m build/Release/D3Visualizer.app/Contents/Resources/English.lproj/Localizable.strings Resources/English.lproj/Localizable.strings14218dbd2bc5b841^38db90bd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/Localizable.strings0000000000000000^436"[1mCopyStringsFile[0m build/Release/D3Visualizer.app/Contents/Resources/English.lproj/Localizable.strings Resources/English.lproj/Localizable.strings    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj -- Resources/English.lproj/Localizable.strings36"8CB38E90-0D12-49B4-AB8D-6F4C23187618-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCpResource CodeMirrorView/Distribution/CodeMirrorView.bundle build/Release/D3Visualizer.app/Contents/Resources/CodeMirrorView.bundle
+s415574973.550739
+e415574973.859461
+r1
+xCpResource
+xCodeMirrorView/Distribution/CodeMirrorView.bundle
+xbuild/Release/D3Visualizer.app/Contents/Resources/CodeMirrorView.bundle
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy build/Release/D3Visualizer.app/Contents/Resources/CodeMirrorView.bundle140"[1mCpResource[0m CodeMirrorView/Distribution/CodeMirrorView.bundle build/Release/D3Visualizer.app/Contents/Resources/CodeMirrorView.bundle310b8dbd2bc5b841^350bdcbd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@125"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/CodeMirrorView.bundle0038b0e9dcffdf42^600"[1mCpResource[0m CodeMirrorView/Distribution/CodeMirrorView.bundle build/Release/D3Visualizer.app/Contents/Resources/CodeMirrorView.bundle    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/alehouse/D3Visualizer/CodeMirrorView/Distribution/CodeMirrorView.bundle /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources36"B2353A56-6A86-410C-9DEF-3AD4CC3324B1-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCpResource Crossfilter/crossfilter.min.js build/Release/D3Visualizer.app/Contents/Resources/crossfilter.min.js
+s415574973.632380
+e415574973.636597
+r1
+xCpResource
+xCrossfilter/crossfilter.min.js
+xbuild/Release/D3Visualizer.app/Contents/Resources/crossfilter.min.js
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Release/D3Visualizer.app/Contents/Resources/crossfilter.min.js118"[1mCpResource[0m Crossfilter/crossfilter.min.js build/Release/D3Visualizer.app/Contents/Resources/crossfilter.min.jsdcf2a1bd2bc5b841^9cf8a2bd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/crossfilter.min.js0038b0e9dcffdf42^559"[1mCpResource[0m Crossfilter/crossfilter.min.js build/Release/D3Visualizer.app/Contents/Resources/crossfilter.min.js    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/alehouse/D3Visualizer/Crossfilter/crossfilter.min.js /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources36"167157A0-C617-441C-9F12-CE8A8BC5E143-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCpResource D3/d3.min.js build/Release/D3Visualizer.app/Contents/Resources/d3.min.js
+s415574973.586625
+e415574973.620686
+r1
+xCpResource
+xD3/d3.min.js
+xbuild/Release/D3Visualizer.app/Contents/Resources/d3.min.js
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release/D3Visualizer.app/Contents/Resources/d3.min.js91"[1mCpResource[0m D3/d3.min.js build/Release/D3Visualizer.app/Contents/Resources/d3.min.js6d3696bd2bc5b841^cde59ebd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/d3.min.js0038b0e9dcffdf42^514"[1mCpResource[0m D3/d3.min.js build/Release/D3Visualizer.app/Contents/Resources/d3.min.js    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/alehouse/D3Visualizer/D3/d3.min.js /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources36"1B8623AC-D3AD-4EC4-8ED1-B1A16AA22B1E-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCpResource D3Plugins/hexbin/hexbin.js build/Release/D3Visualizer.app/Contents/Resources/hexbin.js
+s415574973.621938
+e415574973.631155
+r1
+xCpResource
+xD3Plugins/hexbin/hexbin.js
+xbuild/Release/D3Visualizer.app/Contents/Resources/hexbin.js
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release/D3Visualizer.app/Contents/Resources/hexbin.js105"[1mCpResource[0m D3Plugins/hexbin/hexbin.js build/Release/D3Visualizer.app/Contents/Resources/hexbin.jscc429fbd2bc5b841^d593a1bd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/hexbin.js0038b0e9dcffdf42^542"[1mCpResource[0m D3Plugins/hexbin/hexbin.js build/Release/D3Visualizer.app/Contents/Resources/hexbin.js    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/alehouse/D3Visualizer/D3Plugins/hexbin/hexbin.js /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources36"2B6DF874-B256-4358-9AAA-D1288C6CC8BC-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCpResource NVD3/nv.d3.min.css build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.css
+s415574973.694331
+e415574973.698310
+r1
+xCpResource
+xNVD3/nv.d3.min.css
+xbuild/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.css
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.css101"[1mCpResource[0m NVD3/nv.d3.min.css build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.css25cbb1bd2bc5b841^f8c4b2bd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@117"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.css0038b0e9dcffdf42^530"[1mCpResource[0m NVD3/nv.d3.min.css build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.css    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/alehouse/D3Visualizer/NVD3/nv.d3.min.css /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources36"49A3A03A-B748-4EC2-9AA9-C2290AED9360-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCpResource NVD3/nv.d3.min.js build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.js
+s415574973.637849
+e415574973.693047
+r1
+xCpResource
+xNVD3/nv.d3.min.js
+xbuild/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.js
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.js99"[1mCpResource[0m NVD3/nv.d3.min.js build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.js0455a3bd2bc5b841^1e6cb1bd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.js0038b0e9dcffdf42^527"[1mCpResource[0m NVD3/nv.d3.min.js build/Release/D3Visualizer.app/Contents/Resources/nv.d3.min.js    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/alehouse/D3Visualizer/NVD3/nv.d3.min.js /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources36"1BBD6672-6D15-46AA-809D-D1E79FB81CF5-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCpResource Resources/English.lproj/default.css build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.css
+s415574973.571649
+e415574973.574180
+r1
+xCpResource
+xResources/English.lproj/default.css
+xbuild/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.css
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.css130"[1mCpResource[0m Resources/English.lproj/default.css build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.css206392bd2bc5b841^c40693bd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.css0038b0e9dcffdf42^590"[1mCpResource[0m Resources/English.lproj/default.css build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.css    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/default.css /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj36"F48D96A2-C964-44C2-9F13-94ED917EC355-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCpResource Resources/English.lproj/default.js build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.js
+s415574973.575380
+e415574973.578164
+r1
+xCpResource
+xResources/English.lproj/default.js
+xbuild/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.js
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.js128"[1mCpResource[0m Resources/English.lproj/default.js build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.js645a93bd2bc5b841^560b94bd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@128"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.js0038b0e9dcffdf42^587"[1mCpResource[0m Resources/English.lproj/default.js build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.js    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/default.js /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj36"2F59BAB8-1EC6-467B-8068-EBCA470676FE-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCpResource Resources/English.lproj/default.sql build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.sql
+s415574973.579396
+e415574973.581848
+r1
+xCpResource
+xResources/English.lproj/default.sql
+xbuild/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.sql
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.sql130"[1mCpResource[0m Resources/English.lproj/default.sql build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.sqld95d94bd2bc5b841^e3fd94bd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.sql0038b0e9dcffdf42^590"[1mCpResource[0m Resources/English.lproj/default.sql build/Release/D3Visualizer.app/Contents/Resources/English.lproj/default.sql    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/default.sql /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj36"F0C4F612-76C6-4B5A-A64E-F77B68A2E4F4-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCpResource Resources/English.lproj/error.html build/Release/D3Visualizer.app/Contents/Resources/English.lproj/error.html
+s415574973.583056
+e415574973.585380
+r1
+xCpResource
+xResources/English.lproj/error.html
+xbuild/Release/D3Visualizer.app/Contents/Resources/English.lproj/error.html
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Release/D3Visualizer.app/Contents/Resources/English.lproj/error.html128"[1mCpResource[0m Resources/English.lproj/error.html build/Release/D3Visualizer.app/Contents/Resources/English.lproj/error.html4c5295bd2bc5b841^badb95bd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@128"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj/error.html0038b0e9dcffdf42^587"[1mCpResource[0m Resources/English.lproj/error.html build/Release/D3Visualizer.app/Contents/Resources/English.lproj/error.html    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/alehouse/D3Visualizer/Resources/English.lproj/error.html /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/English.lproj36"5032CEAB-6703-424D-9F3C-F7BE21D32B0D-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CCpResource Resources/index.html build/Release/D3Visualizer.app/Contents/Resources/index.html
+s415574973.567098
+e415574973.569854
+r1
+xCpResource
+xResources/index.html
+xbuild/Release/D3Visualizer.app/Contents/Resources/index.html
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release/D3Visualizer.app/Contents/Resources/index.html100"[1mCpResource[0m Resources/index.html build/Release/D3Visualizer.app/Contents/Resources/index.html433991bd2bc5b841^cafa91bd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources/index.html0038b0e9dcffdf42^531"[1mCpResource[0m Resources/index.html build/Release/D3Visualizer.app/Contents/Resources/index.html    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Volumes/SHARED/alehouse/D3Visualizer/Resources/index.html /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Resources36"54B41FDD-3AFC-4168-A192-3E5EDAC0AFCF-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CGenerateDSYMFile /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app.dSYM /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer
+s415574977.464170
+e415574977.505254
+r1
+xGenerateDSYMFile
+x/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app.dSYM
+x/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Generate /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app.dSYM127"[1mGenerateDSYMFile[0m [1mbuild/Release/D3Visualizer.app.dSYM[0m build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer93df76c12bc5b841^b85881c12bc5b841^---0#0#1#-19%DVTDocumentLocation2@89"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app.dSYM0038b0e9dcffdf42^447"[1mGenerateDSYMFile[0m [1mbuild/Release/D3Visualizer.app.dSYM[0m build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer    cd /Volumes/SHARED/alehouse/D3Visualizer    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer -o /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app.dSYM36"06F24077-B49B-46C8-89B9-2B65ED3D3D9B-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CLd /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer normal x86_64
+s415574977.165898
+e415574977.456103
+r1
+xLd
+x/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer
+xnormal
+xx86_64
+d/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/D3Visualizer.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
+d/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document.o
+d/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CodeMirrorView.o
+d/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/CHCSVParser.o
+d/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/Document+Database.o
+d/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/AppDelegate.o
+d/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libsqlite3.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_macosx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/WebCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer83"[1mLd[0m build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer normal x86_64cb852ac12bc5b841^6ec374c12bc5b841^---0#0#1#--1027"[1mLd[0m build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer normal x86_64    cd /Volumes/SHARED/alehouse/D3Visualizer    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Volumes/SHARED/alehouse/D3Visualizer/build/Release -F/Volumes/SHARED/alehouse/D3Visualizer/build/Release -filelist /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/D3Visualizer.LinkFileList -mmacosx-version-min=10.7 -fobjc-arc -fobjc-link-runtime -framework Cocoa -framework WebKit -lsqlite3 -Xlinker -dependency_info -Xlinker /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/Objects-normal/x86_64/D3Visualizer_dependency_info.dat -o /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/MacOS/D3Visualizer36"326968F3-10C5-455E-86DB-DA56689803EC-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CProcessInfoPlistFile /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Info.plist /Volumes/SHARED/alehouse/D3Visualizer/Info.plist
+s415574973.538374
+e415574973.542650
+r1
+xProcessInfoPlistFile
+x/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Info.plist
+x/Volumes/SHARED/alehouse/D3Visualizer/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Process /Volumes/SHARED/alehouse/D3Visualizer/Info.plist98"[1mProcessInfoPlistFile[0m build/Release/D3Visualizer.app/Contents/Info.plist [1mInfo.plist[0mc1e589bd2bc5b841^4feb8abd2bc5b841^---0#0#1#-19%DVTDocumentLocation2@64"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/Info.plist0000000000000000^450"[1mProcessInfoPlistFile[0m build/Release/D3Visualizer.app/Contents/Info.plist [1mInfo.plist[0m    cd /Volumes/SHARED/alehouse/D3Visualizer    builtin-infoPlistUtility /Volumes/SHARED/alehouse/D3Visualizer/Info.plist -genpkginfo /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app/Contents/Info.plist36"706C09F5-8A76-4B67-B43D-6CD9027BBD66-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CProcessPCH /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch.pch Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s415574975.758556
+e415574976.944663
+r1
+xProcessPCH
+x/var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch.pch
+xPrefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/SHARED/alehouse/D3Visualizer/Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection21"Precompile Prefix.pch268"[1mProcessPCH[0m /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch.pch Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler3942c2bf2bc5b841^c7d4f1c02bc5b841^---0#0#1#-19%DVTDocumentLocation2@64"file://localhost/Volumes/SHARED/alehouse/D3Visualizer/Prefix.pch0000000000000000^3129"[1mProcessPCH[0m /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch.pch Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/SHARED/alehouse/D3Visualizer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-generated-files.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-own-target-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-all-target-headers.hmap -iquote /Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/D3Visualizer-project-headers.hmap -I/Volumes/SHARED/alehouse/D3Visualizer/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources/x86_64 -I/Volumes/SHARED/alehouse/D3Visualizer/build/D3Visualizer.build/Release/D3Visualizer.build/DerivedSources -Wall -F/Volumes/SHARED/alehouse/D3Visualizer/build/Release --serialize-diagnostics /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch.d -c /Volumes/SHARED/alehouse/D3Visualizer/Prefix.pch -o /var/folders/6z/dr13f9zs66g1mj3rc4d__n4m0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Prefix-epobxswbcwmcglghwdnpxfkrslhn/Prefix.pch.pch36"ACFF24DE-0886-46B4-B0A4-954D9D0B80D9-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
+CTouch /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app
+s415574977.513812
+e415574977.519249
+r1
+xTouch
+x/Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Touch /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app44"[1mTouch[0m build/Release/D3Visualizer.app039383c12bc5b841^b3ed84c12bc5b841^---0#0#1#--181"[1mTouch[0m build/Release/D3Visualizer.app    cd /Volumes/SHARED/alehouse/D3Visualizer    /usr/bin/touch -c /Volumes/SHARED/alehouse/D3Visualizer/build/Release/D3Visualizer.app36"8D0C868A-91B3-4B42-9B53-24D9A67F2487-
+b2EBB06A8-93B6-4766-A6E9-81D2AFD9CB41
+
